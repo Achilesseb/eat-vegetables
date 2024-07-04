@@ -59,3 +59,44 @@ header {
     font-weight: 400;
     opacity: 0.6;
 }
+
+.container{
+  margin: 6rem auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+}
+
+.container img{
+  width: 15rem;
+  border-radius: 50%;
+}
+
+article {
+  max-width: 17.5rem;
+  text-align: center;
+
+}
+
+article h2{
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 2rem auto;
+
+}
+
+article p{
+  margin-bottom: 2rem;
+  color: #b0aeab;
+}
+
+article a:link{
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  border: 0.1rem solid tomato;
+  border-radius: 3rem;
+  text-decoration: none;
+  color: tomato;
+}
+
